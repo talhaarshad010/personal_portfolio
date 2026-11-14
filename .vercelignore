@@ -1,0 +1,6 @@
+# Never upload local secrets or build output. Set secrets in Vercel's environment variables instead.
+.env
+.env*.local
+.next
+node_modules
+tsconfig.tsbuildinfo
